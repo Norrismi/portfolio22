@@ -22,11 +22,12 @@ export default function Home() {
    
 
       <Header />
-      <Nav />
+
       <About />
       <Experience />
       <Portfolio />
       <Contact />
+      <Nav />
       <Footer />
 
     </div>
