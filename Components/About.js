@@ -1,5 +1,5 @@
 import React from 'react'
-import Chuck from '../Assets/Chuck.jpg'
+import chuck from '../Assets/Chuck.jpg'
 import Image from 'next/image'
 import { FaAward } from 'react-icons/fa'
 import { BsPeopleFill } from 'react-icons/bs'
@@ -17,15 +17,21 @@ function About() {
         Michael Norris
       </div>
       <div className='lg:mt-20 grid grid-cols-2 drop-shadow-lg'>
-        <div className='hover:rotate-12 duration-300'>
+
+        <div className='bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
+
+    
+
           <Image
-            className='rounded-xl'
-            src={Chuck}
+            className='rounded-xl bg-white hover:rotate-12 duration-300'
+            src={chuck}
             alt="Picture of the author"
-            width={350}
-            height={350}
+          
+            // width={350}
+            // height={350}
           />
         </div>
+
         <div className='mx-auto'>
           <div className='grid grid-rows-3'>
             <div className='flex flex-row'>
