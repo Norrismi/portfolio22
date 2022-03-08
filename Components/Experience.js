@@ -18,7 +18,7 @@ function Experience() {
           {arr.map((skill) => (
 
             <div key={skill} className='flex p-6'>
-              <BsFillPatchCheckFill className='h-auto align-middle text-sky-500 flex ' />
+              <BsFillPatchCheckFill className='h-auto align-middle text-sky-500' />
               <div className="ml-2">{skill}</div>
             </div>
           ))}
