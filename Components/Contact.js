@@ -1,8 +1,35 @@
 import { RiLinkedinLine } from 'react-icons/ri'
 import { AiOutlineMail } from 'react-icons/ai'
 import Link from 'next/link'
+import React, { useState } from 'react';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 function Contact() {
+
+  const form = useRef()
+  const [success, setSuccess] = useState(false)
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    let data = {
+      service: process.env.NEXT_PUBLIC_SERVICE,
+      template: process.env.NEXT_PUBLIC_TEMPLATE,
+      user: process.env.NEXT_PUBLIC_USER
+    }
+
+    emailjs.sendForm(data.service, data.template, form.current, data.user)
+
+    setSuccess(true)
+    console.log(success)
+    e.target.reset();
+  };
+
+
+
+
   return (
     <div className='lg:mb-10 lg:mt-10'>
       <div className='text-sm text-gray-400 text-center'>Get In Touch</div>
@@ -14,47 +41,55 @@ function Contact() {
         <div className='grid grid-rows-2 text-center justify-end lg:w-10/12'>
 
           <div className='flex flex-row justify-end'>
-            <button className=' w-28 h-28 mb-5 rounded-xl bg-indigo-800 flex flex-col justify-center'>
+            <div className=' w-28 h-28 mb-5 rounded-xl bg-indigo-800 flex flex-col justify-center'>
 
               <div className='mx-auto'>
-                <div className='text-sky-500 flex justify-center p-1'><AiOutlineMail size={30} /></div>
+                <Link href="mailto:norrismi.email@gmail.com" >
+                  <a target='_blank' className='text-sky-500 flex justify-center p-1 hover:text-white'  ><AiOutlineMail size={30} /></a>
+                </Link>
                 <div className='mt-2'>Email</div>
+
+
                 <div className=' text-gray-400 text-sm'>Michael</div>
               </div>
 
-            </button>
+
+
+            </div>
           </div>
 
           <div className='flex flex-row'>
-            <button className=' w-28 h-28 rounded-xl bg-indigo-800 flex flex-col justify-center'>
+            <div className=' w-28 h-28 rounded-xl bg-indigo-800 flex flex-col justify-center'>
 
               <div className='mx-auto'>
-     
-                <div className='text-sky-500 flex justify-center p-1'><RiLinkedinLine size={30} /></div>
+                <Link href="https://www.linkedin.com/in/michael-david-norris/" >
+                  <a target='_blank' className='text-sky-500 flex justify-center p-1 hover:text-white'  ><RiLinkedinLine size={30} /></a>
+                </Link>
+
                 <div className='mt-2 justify-center'>LinkedIn</div>
                 <div className=' text-gray-400 text-sm'>Michael</div>
               </div>
 
-            </button>
+            </div>
             <div className='w-28 h-28'></div>
           </div>
         </div>
 
 
-        <div className="flex flex-col">
-          <form action="" className='flex flex-col lg:w-8/12 '>
+        {success == true ? (
+          <div className="text-white text-3xl flex justify-center mt-20 ">Thanks your info was submitted!</div>
+        ) : (
+          <div className="flex flex-col">
+            <form ref={form} onSubmit={sendEmail} className='flex flex-col lg:w-2/3 '>
+              <input type="text" name="name" placeholder="Your Full Name" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 fname" />
+              <input type="email" name="email" placeholder="Your Email" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 lname" />
+              <textarea name="message" placeholder="Your Message" rows="4" cols="50" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black p-2 lname text-gray-400">
+              </textarea>
+              <button type='submit' className='w-4/12 bg-sky-500 p-3 rounded-xl text-gray-200'>Send Message</button>
+            </form>
+          </div>
 
-            <input type="text" id="fname" placeholder="Your Full Name" className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 fname" />
-            <input type="text" id="lname" placeholder="Your Email" className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 lname" />
-
-
-            <textarea id="w3review" name="w3review" placeholder="Your Message" rows="4" cols="50" className="mb-5 border-2 border-sky-500 rounded-lg bg-black p-2 lname text-gray-400">
-
-            </textarea>
-          </form>
-
-        </div>
-
+        )}
 
       </div>
     </div>
