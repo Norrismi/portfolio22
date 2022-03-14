@@ -1,6 +1,7 @@
 import React from 'react'
 import chuck from '../Assets/Chuck.jpg'
 import Image from 'next/image'
+import Link from 'next/link'
 import { FaAward } from 'react-icons/fa'
 import { BsPeopleFill } from 'react-icons/bs'
 import { AiTwotoneFolderOpen } from 'react-icons/ai'
@@ -26,7 +27,6 @@ function About() {
             className='rounded-xl bg-white hover:rotate-12 duration-300'
             src={chuck}
             alt="Picture of the author"
-          
             // width={350}
             // height={350}
           />
@@ -67,8 +67,14 @@ function About() {
             </div>
 
             <div className="text-left">
-              <button className='bg-sky-500 p-4 rounded-xl'>click</button>
+              <Link
+                href='#portfolio'>
+                <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light p-3 mr-2 '>Portfolio</a>
+              </Link>
             </div>
+
+
+
           </div>
         </div>
 

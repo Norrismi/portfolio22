@@ -14,8 +14,17 @@ function Header() {
           <div className='text-3xl font-bold lg:mb-3'> Michael Norris</div>
           <div className='text-sm lg:mb-2'>Fullstack Developer</div>
           <div className='lg:mt-10'>
-            <button className='btn rounded bg-transparent border border-sky-500 font-light p-3 mr-1'>Download Resume</button>
-            <button className='btn rounded bg-sky-500 font-light p-3 mx-4 '>{`Let's Talk`}</button>
+            <div className="flex ">
+              <Link
+                href='#contact'>
+                <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light p-3 mr-2 '>Download Resume</a>
+              </Link>
+
+              <Link
+                href='#contact'>
+                <a className='bg-sky-500 border-sky-500 rounded hover:border hover:border-sky-500 hover:bg-transparent text-white flex font-light p-3 mx-4 '>{`Let's Talk`}</a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

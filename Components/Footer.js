@@ -6,9 +6,7 @@ import { SiCodewars } from 'react-icons/si'
 
 function Footer() {
   return (
-    <div className='bg-sky-500 p-10 
-    bg-gradient-to-t from-sky-500  to-black
-    ' style={{ marginBottom: '-100px' }}>
+    <div className='bg-sky-500 p-10 lg:pt-20 bg-gradient-to-t from-sky-500  to-black' style={{ marginBottom: '-100px' }}>
 
       <div className="flex justify-evenly w-6/12 mx-auto mb-10 lg:mt-5 ">
         <Link

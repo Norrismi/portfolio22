@@ -31,7 +31,7 @@ function Contact() {
 
 
   return (
-    <div className='lg:mb-10 lg:mt-10' id='contact'>
+    <div className='lg:mb-32 lg:mt-10' id='contact'>
       <div className='text-sm text-gray-400 text-center'>Get In Touch</div>
       <div className='text-3xl text-sky-500 text-center'>Contact Me</div>
 
@@ -85,7 +85,9 @@ function Contact() {
               <input type="email" name="email" placeholder="Your Email" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 lname" />
               <textarea name="message" placeholder="Your Message" rows="4" cols="50" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black p-2 lname text-gray-400">
               </textarea>
-              <button type='submit' className='w-4/12 bg-sky-500 p-3 rounded-xl text-gray-200'>Send Message</button>
+              <button type='submit' className='w-4/12 bg-sky-500 border-sky-500 rounded hover:border hover:border-sky-500 hover:bg-transparent text-white font-light p-3 '>Send Message</button>
+
+       
             </form>
           </div>
 
