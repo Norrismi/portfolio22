@@ -31,7 +31,7 @@ function Contact() {
 
 
   return (
-    <div className='lg:mb-10 lg:mt-10'>
+    <div className='lg:mb-10 lg:mt-10' id='contact'>
       <div className='text-sm text-gray-400 text-center'>Get In Touch</div>
       <div className='text-3xl text-sky-500 text-center'>Contact Me</div>
 

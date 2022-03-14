@@ -9,7 +9,7 @@ function About() {
   return (
 
 
-    <div className='lg:mt-40 text-center  '>
+    <div className='lg:mt-40 text-center' id='about'>
       <div className='text-sm text-gray-400'>
         Get to Know
       </div>

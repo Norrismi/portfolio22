@@ -6,7 +6,7 @@ function Experience() {
   let arr = ['JavaScript', 'React.js', 'Next.js', 'Redux', 'Node', 'Express', 'Firebase', 'MongoDB', 'RESTfull APIs', 'GIT', 'Unit Testing', 'Mocha/Jest', 'HTML5', 'CSS3/SASS', 'Tailwind CSS', 'Bootstrap'];
 
   return (
-    <div className='text-center mb-20'>
+    <div className='text-center mb-20' id='experience'>
       <div className='text-sm text-gray-400'>Skills</div>
       <div className='text-3xl text-sky-500'>My Experience</div>
 
