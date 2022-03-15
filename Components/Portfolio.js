@@ -11,10 +11,10 @@ import data from './Data'
 
 function Portfolio() {
   return (
-    <div className="mx-auto text-center mb-20" id='portfolio'>
+    <div className="mx-auto text-center mt-20" id='portfolio'>
       <div className="text-3xl text-sky-500 mb-10">Portfolio</div>
 
-      <div className='grid grid-cols-2 w-8/12 mx-auto'>
+      <div className='md:grid md:grid-cols-2 md:w-8/12 mx-auto'>
         {data.map((project) => (
           <div key={project.id} className="bg-indigo-800 h-fit w-fit rounded-3xl p-5 m-5">
             <Image

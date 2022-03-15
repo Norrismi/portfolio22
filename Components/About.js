@@ -10,19 +10,18 @@ function About() {
   return (
 
 
-    <div className='lg:mt-40 text-center' id='about'>
+    <div className='text-center' id='about'>
       <div className='text-sm text-gray-400'>
         Get to Know
       </div>
       <div className='text-3xl text-sky-500'>
         Michael Norris
       </div>
-      <div className='lg:mt-20 grid grid-cols-2 drop-shadow-lg'>
 
-        <div className='bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
 
-    
+      <div className='mt-10 grid md:grid-cols-2 drop-shadow-lg'>
 
+        <div className='hidden md:visible bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
           <Image
             className='rounded-xl bg-white hover:rotate-12 duration-300'
             src={chuck}
@@ -33,9 +32,9 @@ function About() {
         </div>
 
         <div className='mx-auto'>
-          <div className='grid grid-rows-3'>
-            <div className='flex flex-row'>
-              <div className='lg:mr-10 w-40 h-40 rounded-xl bg-indigo-800 flex flex-col justify-center '>
+          <div className='h-min md:grid md:grid-rows-3'>
+            <div className='flex flex-col mx-auto md:flex-row'>
+              <div className=' w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center '>
 
 
                 <div className='text-sky-500 flex justify-center p-1'>
@@ -45,7 +44,7 @@ function About() {
                 <div className='p-1 text-gray-400'>1+ Years</div>
 
               </div>
-              <div className='lg:mr-10 w-40 h-40 rounded-xl bg-indigo-800 flex flex-col justify-center'>
+              <div className='w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center'>
 
                 <div className='text-sky-500 flex justify-center p-1'>
                   <BsPeopleFill size={30} />
@@ -53,7 +52,7 @@ function About() {
                 <div className='p-1'>Clients</div>
                 <div className='p-1 text-gray-400'>2</div>
               </div>
-              <div className='lg:mr-10 w-40 h-40 rounded-xl bg-indigo-800 flex flex-col justify-center'>
+              <div className='w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center'>
                 <div className='text-sky-500 flex justify-center p-1'>
                   <AiTwotoneFolderOpen size={30} />
                 </div>
@@ -62,11 +61,11 @@ function About() {
               </div>
             </div>
 
-            <div className="text-left mt-10 text-gray-400">
+            <div className="hidden md:visible text-left mt-10 text-gray-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente vel voluptate fugit corporis tenetur aliquid in eos vero ad ex modi possimus suscipit ratione aliquam harum, ducimus ipsam. Debitis!
             </div>
 
-            <div className="text-left">
+            <div className="hidden md:visible text-left">
               <Link
                 href='#portfolio'>
                 <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light p-3 mr-2 '>Portfolio</a>

@@ -6,31 +6,33 @@ import { SiCodewars } from 'react-icons/si'
 
 function Footer() {
   return (
-    <div className='bg-sky-500 p-10 lg:pt-20 bg-gradient-to-t from-sky-500  to-black' style={{ marginBottom: '-100px' }}>
+    <div className=' bg-sky-500  p-10 pt-20 bg-gradient-to-t from-sky-500  to-black' 
+    style={{ marginBottom: '-100px' }}
+    >
 
-      <div className="flex justify-evenly w-6/12 mx-auto mb-10 lg:mt-5 ">
+      <div className="flex justify-evenly md:w-6/12 mx-auto mb-10 mt-5 ">
         <Link
           href='#about'>
-          <a className='text-white text-lg hover:text-sky-500'>About</a>
+          <a className='p-3 text-white text-lg hover:text-sky-500'>About</a>
         </Link>
 
         <Link
           href='#experience'>
-          <a className='text-white text-lg hover:text-sky-500'>Experience</a>
+          <a className='p-3 text-white text-lg hover:text-sky-500'>Experience</a>
         </Link>
 
         <Link
           href='#portfolio'>
-          <a className='text-white text-lg hover:text-sky-500'>Portfolio</a>
+          <a className='p-3 text-white text-lg hover:text-sky-500'>Portfolio</a>
         </Link>
 
         <Link
           href='#contact'>
-          <a className='text-white text-lg hover:text-sky-500'>Contact</a>
+          <a className='p-3 text-white text-lg hover:text-sky-500'>Contact</a>
         </Link>
       </div>
  
-      <div className="flex justify-evenly lg:w-4/12 mx-auto lg:mb-28">
+      <div className="flex justify-evenly lg:w-4/12 mx-auto mb-28">
         <div className="bg-indigo-800 p-5 rounded-xl">
           <Link
             href='https://github.com/Norrismi'>
