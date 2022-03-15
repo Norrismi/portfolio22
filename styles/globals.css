@@ -9,11 +9,11 @@ html,
 body {
   padding: 0;
   margin: 0;
+ 
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background: black;
-    color: white;
-    background: color_bg
+    color: white; 
 }
 
 * {
@@ -28,9 +28,6 @@ body {
 ::-webkit-scrollbar{
   display: none;
 }
-
-
-
 
 html{
   scroll-behavior: smooth;

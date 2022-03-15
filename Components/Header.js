@@ -7,12 +7,14 @@ import Link from 'next/link'
 
 function Header() {
   return (
-    <div>
-      <div className='flex flex-col mt-20'>
-        <div className='m-auto text-center'>
-          <div className='text-sm lg:mb-2'>{`Hello, I'm`}</div>
-          <div className='text-3xl font-bold lg:mb-3'> Michael Norris</div>
-          <div className='text-sm lg:mb-2'>Fullstack Developer</div>
+    <div className='flex flex-col mx-auto justify-center w-max mb-20'>
+      <div className='flex flex-col mt-5'>
+        <div className='mx-auto text-center'>
+
+          <div className='text mx-auto mb-2'>{`Hello, I'm`}</div>
+          <div className='text-3xl font-bold mb-3'> Michael Norris</div>
+          <div className='text mb-3'>Fullstack Developer</div>
+          
           <div className='lg:mt-10'>
             <div className="flex ">
               <Link
@@ -29,7 +31,7 @@ function Header() {
         </div>
       </div>
 
-      <div className='grid grid-cols-3 mt-20 '>
+      <div className='grid grid-cols-3 mt-10 '>
         <div className='flex items-end mx-auto m:p-15 lg:p-10'>
           <HeaderSocials />
         </div>
