@@ -4,7 +4,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   purge: {
-    content: ["./src/pages/**/*.{js,jsx,ts,tsx}", "./src/components/**/*.{js,jsx,ts,tsx}"]
+    content: ["./pages/**/*.{js,jsx,ts,tsx}", "./Components/**/*.{js,jsx,ts,tsx}"]
     // These options are passed through directly to PurgeCSS
   },
   theme: {
