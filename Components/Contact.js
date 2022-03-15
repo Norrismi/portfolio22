@@ -85,9 +85,7 @@ function Contact() {
               <input type="email" name="email" placeholder="Your Email" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 lname" />
               <textarea name="message" placeholder="Your Message" rows="4" cols="50" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black p-2 lname text-gray-400">
               </textarea>
-              <button type='submit' className='w-4/12 bg-sky-500 border-sky-500 rounded hover:border hover:border-sky-500 hover:bg-transparent text-white font-light p-3 '>Send Message</button>
-
-       
+              <button type='submit'className='w-4/12 font-light p-3 rounded bg-sky-500 hover:bg-transparent border-sky-500 hover:border-sky-500 border '>Send Message</button>
             </form>
           </div>
 

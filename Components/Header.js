@@ -22,7 +22,7 @@ function Header() {
 
               <Link
                 href='#contact'>
-                <a className='bg-sky-500 border-sky-500 rounded hover:border hover:border-sky-500 hover:bg-transparent text-white flex font-light p-3 mx-4 '>{`Let's Talk`}</a>
+                <a className='font-light p-3 rounded bg-sky-500 hover:bg-transparent border-sky-500 hover:border-sky-500 border flex mx-4 '>{`Let's Talk`}</a>
               </Link>
             </div>
           </div>
