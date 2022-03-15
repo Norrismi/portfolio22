@@ -3,27 +3,12 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  purge: {
+    content: ["./src/pages/**/*.{js,jsx,ts,tsx}", "./src/components/**/*.{js,jsx,ts,tsx}"]
+    // These options are passed through directly to PurgeCSS
+  },
   theme: {
-    extend: {
-      // textColor:{
-      //   skin:{
-
-      //     color_bg: 'var(--color-bg)',
-      //     color_bg_variant: "var(--color-bg-variant)",
-      //     color_primary: "var(--color-primary)",
-      //     color_primary_variant: "var(--color-primary_variant)",
-      //     color_light: "var(--color-light)",
-      //   },
-      // },
-     
-      
-      
-      // sizing: {
-      //   container_width_lg: "var()",
-      //   container_width_md: "var()",
-      //   container_width_sm: "var()",
-      // },
-    },
+    extend: {},
   },
   plugins: [],
 }
