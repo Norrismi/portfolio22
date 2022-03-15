@@ -11,7 +11,7 @@ function Header() {
       <div className='flex flex-col mt-5'>
         <div className='mx-auto text-center'>
 
-          <div className='text mx-auto mb-2'>{`Hello, I'm`}</div>
+          <div className=' mx-auto mb-2'>{`Hello, I'm`}</div>
           <div className='text-3xl font-bold mb-3'> Michael Norris</div>
           <div className='text mb-3'>Fullstack Developer</div>
           
