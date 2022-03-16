@@ -15,24 +15,26 @@ function About() {
         Get to Know
       </div>
       <div className='text-3xl text-sky-500'>
-        Michael Norris
+        Michael
       </div>
 
 
-      <div className='mt-10 grid md:grid-cols-2 drop-shadow-lg'>
+      <div className='mt-10 flex md:grid-cols-2 drop-shadow-lg'>
 
-        <div className='hidden md:visible bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
+        <div className='hidden lg:inline-block bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
           <Image
             className='rounded-xl bg-white hover:rotate-12 duration-300'
             src={chuck}
             alt="Picture of the author"
-            // width={350}
-            // height={350}
+          // width={350}
+          // height={350}
           />
         </div>
 
         <div className='mx-auto'>
           <div className='h-min md:grid md:grid-rows-3'>
+
+
             <div className='flex flex-col mx-auto md:flex-row'>
               <div className=' w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center '>
 
@@ -41,7 +43,7 @@ function About() {
                   <FaAward size={30} />
                 </div>
                 <div className='p-1'>Experience</div>
-                <div className='p-1 text-gray-400'>1+ Years</div>
+                <div className='p-1 text-gray-400'>1+ Year</div>
 
               </div>
               <div className='w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center'>
@@ -61,14 +63,16 @@ function About() {
               </div>
             </div>
 
-            <div className="hidden md:visible text-left mt-10 text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente vel voluptate fugit corporis tenetur aliquid in eos vero ad ex modi possimus suscipit ratione aliquam harum, ducimus ipsam. Debitis!
+            <div className='md:flex md:justify-center'>
+              <p className="hidden md:flex  md:w-8/12 text-left mt-10 text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente vel voluptate fugit corporis tenetur aliquid in eos vero ad ex modi possimus suscipit ratione aliquam harum, ducimus ipsam. Debitis!
+              </p>
             </div>
 
-            <div className="hidden md:visible text-left">
+            <div className="hidden md:flex md:justify-center md:h-fit md:-mt-6   ">
               <Link
                 href='#portfolio'>
-                <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light p-3 mr-2 '>Portfolio</a>
+                <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light px-2 py-2 mr-2 '>Portfolio</a>
               </Link>
             </div>
 

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { BsFillHouseFill } from 'react-icons/bs'
 import { BsInfoLg } from 'react-icons/bs'
 import { MdComputer } from 'react-icons/md'
-import { FaRegNewspaper } from 'react-icons/fa'
+import { BsFillChatDotsFill } from 'react-icons/bs'
 
 
 function Nav() {
@@ -18,18 +18,18 @@ function Nav() {
           <a className='  px-5 hover:text-sky-500 duration-300' title="Home"><BsFillHouseFill size={20} /></a>
         </Link>
         <Link
-          href='#About' passHref >
+          href='#about' passHref >
           <a className='  px-5 hover:text-sky-500 duration-300' title="About"><BsInfoLg size={20} /></a>
         </Link>
 
         <Link
-          href='#Projects' passHref >
+          href='#portfolio' passHref >
           <a className='  px-5 text-white hover:text-sky-500 duration-300' title="Projects"><MdComputer size={20} /></a>
         </Link>
 
         <Link
-          href='#Portfolio' passHref >
-          <a className='  px-5 text-white hover:text-sky-500 duration-300' title="Resume"><FaRegNewspaper size={20} /></a>
+          href='#contact' passHref >
+          <a className='  px-5 text-white hover:text-sky-500 duration-300' title="Resume"><BsFillChatDotsFill size={20} /></a>
         </Link>
       </div>
 

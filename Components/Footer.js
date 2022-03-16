@@ -6,11 +6,11 @@ import { SiCodewars } from 'react-icons/si'
 
 function Footer() {
   return (
-    <div className=' bg-sky-500  p-10 pt-20 bg-gradient-to-t from-sky-500  to-black' 
+    <div className='border-0 bg-sky-500 	  p-10 pt-20 bg-gradient-to-t from-sky-500  to-black' 
     style={{ marginBottom: '-100px' }}
     >
 
-      <div className="flex justify-evenly md:w-6/12 mx-auto mb-10 mt-5 ">
+      <div className="flex justify-evenly mx-auto mb-10 mt-5 ">
         <Link
           href='#about'>
           <a className='p-3 text-white text-lg hover:text-sky-500'>About</a>
@@ -23,7 +23,7 @@ function Footer() {
 
         <Link
           href='#portfolio'>
-          <a className='p-3 text-white text-lg hover:text-sky-500'>Portfolio</a>
+          <a className='p-3 text-white text-lg hover:text-sky-500 visited:text-white'>Portfolio</a>
         </Link>
 
         <Link
@@ -32,7 +32,7 @@ function Footer() {
         </Link>
       </div>
  
-      <div className="flex justify-evenly lg:w-4/12 mx-auto mb-28">
+      <div className="flex justify-evenly md:w-8/12 mx-auto mb-28">
         <div className="bg-indigo-800 p-5 rounded-xl">
           <Link
             href='https://github.com/Norrismi'>
