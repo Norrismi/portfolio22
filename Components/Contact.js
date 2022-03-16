@@ -75,8 +75,8 @@ function Contact() {
         {success == true ? (
           <div className="text-white text-3xl flex justify-center mt-20 ">Thanks your info was submitted!</div>
         ) : (
-          <div className="p-6 md:p-0 md:pr-6 flex flex-col">
-            <form ref={form} onSubmit={sendEmail} className='flex flex-col lg:w-2/3 '>
+          <div className="p-6 md:p-0 md:pr-6 lg:p-0  flex flex-col">
+            <form ref={form} onSubmit={sendEmail} className='flex flex-col lg:w-9/12 '>
               <input type="text" name="name" placeholder="Your Full Name" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 fname" />
               <input type="email" name="email" placeholder="Your Email" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black text-gray-400 p-2 lname" />
               <textarea name="message" placeholder="Your Message" rows="4" cols="50" required className="mb-5 border-2 border-sky-500 rounded-lg bg-black p-2 lname text-gray-400">

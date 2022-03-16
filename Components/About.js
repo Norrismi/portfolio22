@@ -21,7 +21,7 @@ function About() {
 
       <div className='mt-10 flex md:grid-cols-2 drop-shadow-lg'>
 
-        <div className='hidden lg:inline-block bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
+        {/* <div className='hidden lg:inline-block bg-gradient-to-b from-indigo-800  p-5 h-fit rounded-xl mx-auto'>
           <Image
             className='rounded-xl bg-white hover:rotate-12 duration-300'
             src={chuck}
@@ -29,7 +29,7 @@ function About() {
           // width={350}
           // height={350}
           />
-        </div>
+        </div> */}
 
         <div className='mx-auto'>
           <div className='h-min md:grid md:grid-rows-3'>
@@ -64,7 +64,7 @@ function About() {
             </div>
 
             <div className='md:flex md:justify-center'>
-              <p className="hidden md:flex  md:w-8/12 text-left mt-10 text-gray-400">
+              <p className="hidden md:flex md:w-7/12 lg:w-5/12 text-left mt-10 text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente vel voluptate fugit corporis tenetur aliquid in eos vero ad ex modi possimus suscipit ratione aliquam harum, ducimus ipsam. Debitis!
               </p>
             </div>

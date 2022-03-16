@@ -10,7 +10,7 @@ function Footer() {
     style={{ marginBottom: '-100px' }}
     >
 
-      <div className="flex justify-evenly mx-auto mb-10 mt-5 ">
+      <div className="flex justify-evenly mx-auto lg:w-9/12 mb-10 mt-5 ">
         <Link
           href='#about'>
           <a className='p-3 text-white text-lg hover:text-sky-500'>About</a>
@@ -32,7 +32,7 @@ function Footer() {
         </Link>
       </div>
  
-      <div className="flex justify-evenly md:w-8/12 mx-auto mb-28">
+      <div className="flex justify-evenly md:w-8/12 lg:w-6/12 mx-auto mb-28">
         <div className="bg-indigo-800 p-5 rounded-xl">
           <Link
             href='https://github.com/Norrismi'>
