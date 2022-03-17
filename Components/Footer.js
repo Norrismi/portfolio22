@@ -15,23 +15,19 @@ function Footer() {
           href='#about'>
           <a className='p-3 text-white text-lg hover:text-sky-500'>About</a>
         </Link>
-
         <Link
           href='#experience'>
           <a className='p-3 text-white text-lg hover:text-sky-500'>Experience</a>
         </Link>
-
         <Link
           href='#portfolio'>
           <a className='p-3 text-white text-lg hover:text-sky-500 visited:text-white'>Portfolio</a>
         </Link>
-
         <Link
           href='#contact'>
           <a className='p-3 text-white text-lg hover:text-sky-500'>Contact</a>
         </Link>
       </div>
- 
       <div className="flex justify-evenly md:w-8/12 lg:w-6/12 mx-auto mb-28">
         <div className="bg-indigo-800 p-5 rounded-xl">
           <Link
@@ -39,14 +35,12 @@ function Footer() {
             <a className='text-sky-500 hover:text-white' title="GitHub Profile" target="_blank"><BsGithub size={20} /></a>
           </Link>
         </div>
-
         <div className="bg-indigo-800 p-5 rounded-xl">
           <Link
             href='https://www.codewars.com/users/Norrismi'>
             <a className='text-sky-500 hover:text-white' title="GitHub Profile" target="_blank"><SiCodewars size={20} /></a>
           </Link>
         </div>
-
         <div className="bg-indigo-800 p-5 rounded-xl">
           <Link
             href='https://www.linkedin.com/in/michael-david-norris/'>
