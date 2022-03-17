@@ -12,7 +12,7 @@ function Experience() {
 
 
       <div className="w-fit h-fit p-5 bg-indigo-800 hover:bg-opacity-50	 mx-auto mt-10 rounded-xl">
-        <div className="grid grid-cols-2  md:grid md:grid-cols-4  lg:grid-cols-6">
+        <div className="grid grid-cols-2  md:grid md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8">
 
       
           {arr.map((skill) => (

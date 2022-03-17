@@ -14,7 +14,7 @@ function Portfolio() {
     <div className="mx-auto text-center mt-20" id='portfolio'>
       <div className="text-3xl text-sky-500 mb-10">Portfolio</div>
 
-      <div className='md:grid md:grid-cols-2 lg:w-10/12  mx-auto'>
+      <div className='md:grid md:grid-cols-2 lg:w-10/12 xl:w-11/12 2xl:w-10/12 mx-auto'>
         {data.map((project) => (
           <div key={project.id} className="bg-indigo-800  w-fit  rounded-3xl p-5 m-5">
             <Image

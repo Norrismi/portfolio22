@@ -1,4 +1,3 @@
-import React from 'react'
 import Chuck from '../Assets/Chuck.jpg'
 import Image from 'next/image'
 import HeaderSocials from './HeaderSocials'
@@ -14,7 +13,7 @@ function Header() {
           <div className='text-sm mx-auto text-gray-400'>{`Hello, I'm`}</div>
           <div className='text-3xl font-bold mb-2 text-sky-500'> Michael Norris</div>
           <div className='text-sm text-gray-400'>Fullstack Developer</div>
-          
+
           <div className='mt-6'>
             <div className="flex ">
               <Link
@@ -40,15 +39,18 @@ function Header() {
             className='rounded-t-full'
             src={Chuck}
             alt="Picture of the author"
-            // width={400}
-            // height={400}
+          // width={400}
+          // height={400}
           />
         </div>
 
         <Link
           href='#contact'>
-          <a className='hidden md:visible text-sky-500 md:flex mx-auto items-end m:p-15 lg:p-10'> Scroll Down</a>
+          <a className='hidden md:visible text-sky-500 md:flex mx-auto items-end m:p-15 lg:p-10'>
+              Scroll Down
+          </a>
         </Link>
+
       </div>
     </div>
   )
