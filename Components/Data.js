@@ -28,14 +28,14 @@ const Data = [
         link: "https://dean-productions.vercel.app/",
         source: StHillaireProd
       },
-      {
-        id: 4,
-        title: "Jarvis Creek",
-        description:
-          "Single house advertisement using Firebase/Firestore to record customer inquiries and Leaflet Maps for location information",
-        link: "http://your-weather7.herokuapp.com/",
-        source: JarvisCreek
-      }
+      // {
+      //   id: 4,
+      //   title: "Jarvis Creek",
+      //   description:
+      //     "Single house advertisement using Firebase/Firestore to record customer inquiries and Leaflet Maps for location information",
+      //   link: "http://your-weather7.herokuapp.com/",
+      //   source: JarvisCreek
+      // }
 ]
 
 export default Data
