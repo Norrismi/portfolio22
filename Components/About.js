@@ -40,7 +40,7 @@ function About() {
                   <AiTwotoneFolderOpen size={30} />
                 </div>
                 <div className='p-1'>Projects</div>
-                <div className='p-1 text-gray-400'>8</div>
+                <div className='p-1 text-gray-400'>4</div>
               </div>
             </div>
             <div className='md:flex md:justify-center'>

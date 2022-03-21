@@ -4,6 +4,7 @@ import HeaderSocials from './HeaderSocials'
 import Link from 'next/link'
 
 
+
 function Header() {
   return (
     <div className='flex flex-col mx-auto justify-center mb-20'>
@@ -14,10 +15,7 @@ function Header() {
           <div className='text-sm text-gray-400'>Fullstack Developer</div>
           <div className='mt-6'>
             <div className="flex ">
-              <Link
-                href='#contact'>
-                <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light p-3 mr-2 '>Download Resume</a>
-              </Link>
+              <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light p-3 mr-2' href="/Resume.pdf" download>Download Resume</a>
               <Link
                 href='#contact'>
                 <a className='font-light p-3 rounded bg-sky-500 hover:bg-transparent border-sky-500 hover:border-sky-500 border flex mx-4 '>{`Let's Talk`}</a>
