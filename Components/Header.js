@@ -4,7 +4,6 @@ import HeaderSocials from './HeaderSocials'
 import Link from 'next/link'
 
 
-
 function Header() {
   return (
     <div className='flex flex-col mx-auto justify-center mb-20'>
