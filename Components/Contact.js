@@ -26,9 +26,6 @@ function Contact() {
     e.target.reset();
   };
 
-
-
-
   return (
     <div className='mt-20 border-0' id='contact'>
       <div className='text-sm text-gray-400 text-center'>Get In Touch</div>
