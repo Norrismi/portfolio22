@@ -1,23 +1,31 @@
 # Portfolio Site
+
 New Portfolio site, this site is currently live at https://norris-webdev.com/ <br />
 
 ## Technology used
+
 - Next.js
 - Tailwind CSS
 - Email.js
 
 
 ## Project Screen Shots
-![Mobile Example](portfolio22/Assets/mobile.jpg)
+
+![Mobile Example](Assets/mobile.jpg)
 
 ![Computer Example](Assets/PC.jpg)
 
 
 
 ## Reflection
+
 Feeling the need to create a better portfolio website and to understand and learn more about Tailwind CSS framework, I created a new portfolio website. <br />
 
 Admittley, having weak design skills, I used a portfolio design from youtube and tweaked some of the design. I know I have strong CSS skills, but I wanted to improve my toolset with Tailwind CSS. The youtube video I was following for design inspiration was using CSS components which was of no use to me. This allowed me to sharpen my Tailwind CSS skills quickly! Thankfully, I had experience with flexbox design, so it only took a few lines of Tailwind CSS to understand the flow of the framework.  <br />
+
+
+
+
 
 
 
