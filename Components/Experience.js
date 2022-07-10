@@ -3,7 +3,7 @@ import { BsFillPatchCheckFill } from 'react-icons/bs'
 
 function Experience() {
 
-  let arr = ['JavaScript', 'React.js', 'Next.js', 'Redux', 'Node', 'Express', 'Firebase', 'MongoDB', 'RESTfull APIs', 'GIT', 'Unit Testing', 'Mocha/Jest', 'HTML5', 'CSS3/SASS', 'Tailwind CSS', 'Bootstrap'];
+  let arr = ['JavaScript', 'React.js', 'Next.js', 'Redux', 'Node', 'Express', 'Firebase', 'MySQL', 'RESTfull APIs', 'GIT', 'Unit Testing', 'Mocha/Jest', 'HTML5', 'CSS3/SASS', 'Tailwind CSS', 'Bootstrap'];
 
   return (
     <div className='text-center mt-20 md:-mt-20' id='experience'>

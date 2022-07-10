@@ -26,14 +26,7 @@ function About() {
                   <FaAward size={30} />
                 </div>
                 <div className='p-1'>Experience</div>
-                <div className='p-1 text-gray-400'>1+ Year</div>
-              </div>
-              <div className='w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center'>
-                <div className='text-sky-500 flex justify-center p-1'>
-                  <BsPeopleFill size={30} />
-                </div>
-                <div className='p-1'>Clients</div>
-                <div className='p-1 text-gray-400'>2</div>
+                <div className='p-1 text-gray-400'>2+ Years</div>
               </div>
               <div className='w-40 h-40 m-4 rounded-xl bg-indigo-800 flex flex-col justify-center'>
                 <div className='text-sky-500 flex justify-center p-1'>
