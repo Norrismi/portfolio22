@@ -41,7 +41,7 @@ function About() {
                 After learning the skills to build websites, I wanted to reach out to friends and help them with their personal or business goals. So far I have been able to help two friends with their businesses. In the first site, the major technology used is React.js and Firebase and the second site is built with Next.js and Firestore. It has been a great experience and I would like to help additional people in the future.
               </p>
             </div>
-            <div className="hidden md:flex md:justify-center md:h-fit lg:mt-4    ">
+            <div className="hidden md:flex md:justify-center md:h-fit lg:mt-4">
               <Link
                 href='#portfolio'>
                 <a className='rounded bg-transparent border border-sky-500 hover:bg-sky-500 font-light px-2 py-2 mr-2 '>Portfolio</a>

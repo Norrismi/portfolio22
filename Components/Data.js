@@ -4,14 +4,14 @@ import StHillaireProd from '../Assets/StHillaire_Prod.jpg'
 import TallGrassland from '../Assets/TallGrassland.jpg'
 
 const Data = [
-    {
-        id: 1,
-        title: "TallGrassland.com",
-        description:
-          "Real Estate website, uses React Redux for state management, Google Cloud Firestore and Google Cloud Storage",
-        link: "https://www.tallgrassland.com/",
-        source: TallGrassland
-      },
+    // {
+    //     id: 1,
+    //     title: "TallGrassland.com",
+    //     description:
+    //       "Real Estate website, uses React Redux for state management, Google Cloud Firestore and Google Cloud Storage",
+    //     link: "https://www.tallgrassland.com/",
+    //     source: TallGrassland
+    //   },
       {
         id: 2,
         title: "DT's Kitchen",
